@@ -13,10 +13,11 @@ Tiny Library for change number from a language in other language.
 ## Arguments 
 
 
-| Argument Name  | Goal | Value(s) |
+| Argument Name  | Goal | Value(s) | 
 | ------------- | ------------- | --------------- | 
-| data-number-target | Set the target language  |     fa - en - ar |
-| data-number-from  |Set the source language ( default : auto )  | auto(all) - fa - en - ar |
+| data-number-target | Set the target language  |     fa - en - ar | 
+| data-number-from (Optional)  | Set the source language ( default : auto )  | auto(all) - fa - en - ar |
+
 
 
 ## Samples
