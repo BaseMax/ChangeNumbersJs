@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>Example ChangeNumbers.js</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="ChangeNumbers.js"></script>
+	</head>
+	<body>
+		<h1>Example ChangeNumbers.js</h1>
+		<br><br>
+		<table width="500">
+			<tr>
+				<td>
+					Enter Text : 
+				</td>
+				<td>
+					<input id="number" type="text" name="number">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Choose From :
+				</td>
+				<td>
+					<select name="from" id="from">
+						<option value="auto">All Number(Auto)</option>
+						<option value="fa">Farsi(Persian)</option>
+						<option value="ar">Arabic</option>
+						<option value="en">English</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Choose Target :
+				</td>
+				<td>
+					<select name="target" id="target">
+						<option value="fa">Farsi(Persian)</option>
+						<option value="ar">Arabic</option>
+						<option value="en">English</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<button onclick="test();">Change</button>
+		<br>
+		Result :
+		<div id="result"></div>
+		<script type="text/javascript">
+		function test()
+		{
+			var text=document.querySelector("#number");
+			var value=text.value;
+			var from=document.querySelector("#from").value;
+			var target=document.querySelector("#target").value;
+			if(from == "auto")
+			{
+				value=numbers.check(value,target);
+			}
+			else
+			{
+				value=numbers.check_from(value,from,target);
+			}
+			result.innerHTML=value;
+		}
+		</script>
+		<br>
+		<hr>
+		<br>
+		<h3>A few examples : </h3>
+		<ul>
+			<!-- input : en -->
+			<li>
+				From : EN ,Input : 2018 , Target : EN , Result : 2018
+				<br>
+				===> <label data-number-target="en">2018</label>	
+			</li>
+			<li>
+				From : EN ,Input : 2018 , Target : FA , Result : ۲۰۱۸
+				<br>
+				===> <label data-number-target="fa">2018</label>	
+			</li>
+			<li>
+				From : EN ,Input : 2018 , Target : AR , Result : ۲۰۱۸
+				<br>
+				===> <label data-number-target="ar">2018</label>	
+			</li>
+			<!-- input : fa -->
+			<li>
+				From : FA ,Input : ۲۰۱۸ , Target : EN , Result : 2018
+				<br>
+				===> <label data-number-target="en">۲۰۱۸</label>
+			</li>
+			<li>
+				From : FA ,Input : ۲۰۱۸ , Target : FA , Result : ۲۰۱۸
+				<br>
+				===> <label data-number-target="fa">۲۰۱۸</label>
+			</li>
+			<li>
+				From : FA ,Input : ۲۰۱۸ , Target : AR , Result : ۲۰۱۸
+				<br>
+				===> <label data-number-target="ar">۲۰۱۸</label>
+			</li>
+			<!-- input : ar -->
+			<li>
+				From : AR ,Input : ۲۰۱۸ , Target : EN , Result : 2018
+				<br>
+				===> <label data-number-target="en">۲۰۱۸</label>
+			</li>
+			<li>
+				From : AR ,Input : ۲۰۱۸ , Target : FA , Result : ۲۰۱۸
+				<br>
+				===> <label data-number-target="fa">۲۰۱۸</label>
+			</li>
+			<li>
+				From : AR ,Input : ۲۰۱۸ , Target : AR , Result : ۲۰۱۸
+				<br>
+				===> <label data-number-target="ar">۲۰۱۸</label>
+			</li>
+		</ul>
+	</body>
+</html>
