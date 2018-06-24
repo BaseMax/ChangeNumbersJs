@@ -11,10 +11,9 @@ Tiny Library for change number from a language in other language.
   
 
 ## Supported languages
-  - Persian (Farsi) = `fa`
-  - Arabic = `ar`
-  - English = `en`
-
+  - [x] Persian/Farsi (`fa`)
+  - [x] Arabic (`ar`)
+  - [x] English (`en`)
 
 ## Arguments 
 
