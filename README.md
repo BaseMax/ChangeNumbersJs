@@ -10,13 +10,19 @@ Tiny Library for change number from a language in other language.
   - No dependencies
   
 
+## Supported languages
+  - Persian (Farsi) = `fa`
+  - Arabic = `ar`
+  - English = `en`
+
+
 ## Arguments 
 
 
 | Argument Name  | Goal | Value(s) | 
 | ------------- | ------------- | --------------- | 
-| data-number-target | Set the target language  |     fa - en - ar | 
-| data-number-from (Optional)  | Set the source language ( default : auto )  | auto(all) - fa - en - ar |
+| data-number-target | Set the target language  |     `fa` - `en` - `ar` | 
+| data-number-from (Optional)  | Set the source language ( default : auto )  | `auto`(all) - `fa` - `en` - `ar` |
 
 
 
