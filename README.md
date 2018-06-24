@@ -14,6 +14,45 @@ Tiny Library for change number from a language in other language.
   - [x] Persian/Farsi (`fa`)
   - [x] Arabic (`ar`)
   - [x] English (`en`)
+  
+
+## Numbers characters 
+
+##### Persian/Farsi :
+  - ۰
+  - ۱
+  - ۲
+  - ۳
+  - ۴
+  - ۵
+  - ۶
+  - ۷
+  - ۸
+  - ۹
+
+##### Arabic :
+  - ٠
+  - ١
+  - ٢
+  - ٣
+  - ٤
+  - ٥
+  - ٦
+  - ٧
+  - ٨
+  - ٩
+
+##### English  :
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
 
 ## Arguments 
 
