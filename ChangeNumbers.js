@@ -167,37 +167,19 @@
 		data_items = document.querySelectorAll("[data-number-target=fa]");
 		data_items.forEach(function(item)
 		{
-			if(item.onclick === null)//onclick not exists
-			{
-				item.onclick=function()
-				{
-					window.numbers.checks(this,"fa");
-				};
-			}
+			window.numbers.checks(this,"fa");
 		});
 		//////////////////////////////////////////////////////////////////
 		data_items = document.querySelectorAll("[data-number-target=en]");
 		data_items.forEach(function(item)
 		{
-			if(item.onclick === null)//onclick not exists
-			{
-				item.onclick=function()
-				{
-					window.numbers.checks(this,"en");
-				};
-			}
+			window.numbers.checks(this,"en");
 		});
 		//////////////////////////////////////////////////////////////////
 		data_items = document.querySelectorAll("[data-number-target=ar]");
 		data_items.forEach(function(item)
 		{
-			if(item.onclick === null)//onclick not exists
-			{
-				item.onclick=function()
-				{
-					window.numbers.checks(this,"ar");
-				};
-			}
+			window.numbers.checks(this,"ar");
 		});
 		//////////////////////////////////////////////////////////////////
 	},false);
