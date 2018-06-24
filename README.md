@@ -33,4 +33,4 @@ To view the full details, run the [Example.html](https://github.com/BaseMax/Chan
 
 # License
 
-GoScroll is licensed under the [GNU General Public License](https://github.com/BaseMax/ChangeNumbersJs/blob/master/LICENSE).
+ChangeNumbers is licensed under the [GNU General Public License](https://github.com/BaseMax/ChangeNumbersJs/blob/master/LICENSE).
