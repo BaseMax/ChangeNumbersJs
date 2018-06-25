@@ -16,7 +16,7 @@
 	*
 	* @goal : Change Position of scroll
 	*
-	* @return int
+	* @return string[]
 	**/
 	var persian = ['۰','۱','۲','۳','۴','۵','۶','۷','۸','۹'];
 	/**
@@ -24,7 +24,7 @@
 	*
 	* @goal : Change Position of scroll
 	*
-	* @return int
+	* @return string[]
 	**/
 	var arabic = ['٠','١','٢','٣','٤','٥','٦','٧','٨','٩'];
 	/**
@@ -32,7 +32,7 @@
 	*
 	* @goal : Change Position of scroll
 	*
-	* @return int
+	* @return string[]
 	**/
 	var english = ['0','1','2','3','4','5','6','7','8','9'];
 	/**
