@@ -1,7 +1,7 @@
 # ChangeNumbers
 Tiny Library for change number from a language in other language.
 
-![ChangeNumbers.min.js File Size](https://img.shields.io/badge/Compressed%20Size-1.7%20KB-blue.svg) ![ChangeNumbers.min.js Validation Code](https://img.shields.io/badge/Validation%20Code-No%20Check-green.svg)
+![ChangeNumbers.min.js File Size](https://img.shields.io/badge/Compressed%20Size-1.7%20KB-blue.svg) ![ChangeNumbers.min.js Validation Code](https://img.shields.io/badge/Validation%20Code-Check-green.svg)
 
 
 ## Features 
